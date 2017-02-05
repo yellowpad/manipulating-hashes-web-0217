@@ -6,8 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+  arr = groceries[:dairy] + groceries[:vegetable] + groceries[:meat] + groceries[:grains]
 
-  
+  return arr
+
 
 end
